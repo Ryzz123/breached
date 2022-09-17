@@ -315,6 +315,9 @@ em {
 .setelan-menu {
   margin: 0 4rem 0 0;
   border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: #242424;
 }
 
 /* menu button setelan  */
