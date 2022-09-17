@@ -364,3 +364,10 @@ input {
 .ubah-satu button {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 355px) {
+  .status {
+    font-size: small;
+  }
+}
+
