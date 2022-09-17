@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-dark-2 {
+  background-color: #242424;
+  height: 100%;
+  width: 100%;
+}
+
+.profil {
+  height: 200px;
+  margin: 20px 20px;
+  width: 100%;
+  display: flex;
+  border-radius: 4px;
+  border: 3px rgb(50, 48, 48) solid;
+  background: rgb(7, 21, 24);
+  background: linear-gradient(0deg, rgba(7, 21, 24, 1) 48%, rgb(13, 89, 130) 49%);
+}
+
+.profil-gambar {
+  position: relative;
+  top: 2.6rem;
+  margin-right: 1rem;
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  position: relative;
+  top: 2.3rem;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.456);
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.name h3 {
+  position: relative;
+  top: 5px;
+  color: rgb(253, 1, 1);
+  font-weight: 500;
+}
+
+.star-profil {
+  position: relative;
+  top: 2.5rem;
+}
+
+.star-profil i {
+  color: rgb(255, 225, 0);
+}
+
+span {
+  color: rgb(5, 233, 43);
+  font-weight: 600;
+}
+
+.status-profil {
+  position: relative;
+  top: 2.5rem;
+  color: white;
+}
+
+.status {
+  line-height: 20px;
+}
+
+/* bagian forum */
+.forum {
+  height: 63%;
+  width: 100%;
+  background-color: #222222;
+  border: 3px rgb(50, 48, 48) solid;
+  border-radius: 4px;
+  color: white;
+}
+
+.judul-forum {
+  height: 30px;
+  background-color: rgb(13, 89, 130);
+  border-radius: 3px;
+}
+
+.judul-forum h5 {
+  margin-left: 10px;
+}
+
+.god-forum img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.god-forum {
+  text-align: center;
+  border-bottom: 1px solid rgb(61, 60, 60);
+}
+
+.joined,
+.time,
+.user,
+.member {
+  padding-left: 1rem;
+  position: relative;
+  border-bottom: 1px solid rgb(61, 60, 60);
+  align-items: center;
+  color: rgb(168, 162, 162);
+  font-weight: 500;
+}
+
+.joined-1,
+.time-1,
+.user1,
+.member1 {
+  position: relative;
+  top: 15px;
+}
+
+.joined-2,
+.time-2,
+.user2,
+.member2 {
+  font-weight: normal;
+}
+
+/* bagian about */
+.about {
+  height: 13%;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #222222;
+  border: 3px rgb(50, 48, 48) solid;
+  border-radius: 4px;
+  color: white;
+}
+
+.gender {
+  padding-left: 1rem;
+  position: relative;
+  align-items: center;
+  color: rgb(168, 162, 162);
+  font-weight: 500;
+}
+
+.gender1 {
+  position: relative;
+  top: 10px;
+}
+
+.undi {
+  margin-left: 3rem;
+  font-weight: normal;
+  color: rgb(155, 152, 152);
+}
+
+/* bagian statistik */
+.statistik {
+  height: 30%;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #222222;
+  border: 3px rgb(50, 48, 48) solid;
+  border-radius: 4px;
+  color: white;
+}
+
+.thread,.posts,.reputation {
+  padding-left: 1rem;
+  position: relative;
+  border-bottom: 1px solid rgb(61, 60, 60);
+  align-items: center;
+  color: rgb(168, 162, 162);
+  font-weight: 500;
+}
+
+.thread-1,.posts-1,.reputation-1 {
+  position: relative;
+  top: 15px;
+  font-weight: 600;
+}
+
+.thread-2,.posts-2,.reputation-2 {
+  font-weight: 400;
+}
+
+.reputation-2 {
+  font-weight: 500;
+  color: rgb(0, 233, 0);
+}
+
+.search {
+  position: absolute;
+  top: 2.5rem;
+  right: 0.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.search i {
+  color: rgba(109, 164, 232, 0.911);
+}
+
+.details {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+/* bagian signature */
+.signature {
+  height: 30%;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #222222;
+  border: 3px rgb(50, 48, 48) solid;
+  border-radius: 4px;
+  color: white; 
+}
+
+.quote {
+  margin: 10px auto;
+  height: 150px;
+  width: 90%;
+  background-color: #242424;
+  text-align: center;
+  line-height: 13px;
+  border-left: 6px solid rgb(16, 100, 164);
+  border-radius: 5px;
+}
+
+.follow,.tele {
+  color: rgb(168, 163, 163);
+}
+
+.quote-1 {
+  padding-top: 10px;
+  font-weight: 500;
+  color: rgb(29, 73, 155);
+}
+
+/* bagian award */
+.award {
+  height: 30%;
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #222222;
+  border: 3px rgb(50, 48, 48) solid;
+  border-radius: 4px;
+  color: white; 
+}
+
+.award-container {
+  padding: 10px 10px;
+}
+
+.award-forum {
+  height: 20px;
+  background-color: rgb(24, 21, 21);
+  border-top: 1px solid rgb(83, 82, 82);
+}
+
+em {
+  color: rgb(34, 112, 222);
+}
+
+.award-2 {
+  font-weight: 400;
+  margin-left: 7rem;
+}
+
+/* setting */
+.display {
+  display: none;
+}
+
+.setting {
+  position: fixed;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  background-color: #242424;
+  top: 0;
+  bottom: 0;
+}
+
+.menu-setelan {
+  color: white;
+  width: 100%;
+}
+
+.setelan {
+  font-size: x-large;
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgb(53, 53, 53);
+}
+
+.menu-setelan .back {
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  font-size: xx-large;
+  color: rgb(255, 234, 0);
+  cursor: pointer;
+}
+
+.setelan-menu {
+  margin: 0 4rem 0 0;
+}
+
+/* menu button setelan  */
+.menu-setelan-1,.menu-setelan-2,.menu-setelan-3,.menu-setelan-4,.menu-setelan-5 {
+  margin: 15px 0;
+  padding: 3px 8px;
+  border-radius: 6px;
+  color: white;
+  background-color: #242424;
+  border: 2px orange solid;
+  cursor: pointer;
+}
+
+.span {
+  color: white;
+}
+
+/* menu ubah */
+.menu-ubah {
+  position: fixed;
+  height: 200px;
+  width: 100%;
+  z-index: 999;
+  top: 14rem;
+  background-color: #242424;
+  margin: auto;
+}
+
+.ubah-satu {
+  text-align: center;
+}
+
+label {
+  color: white;
+  padding: 6px 0;
+  font-size: x-large;
+}
+
+input {
+  background-color: #22222200;
+  border: 1px orange solid;
+}
+
+.ubah-satu button {
+  margin-top: 30px;
+}
